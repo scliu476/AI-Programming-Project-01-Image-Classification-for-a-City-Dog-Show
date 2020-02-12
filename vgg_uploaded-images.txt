@@ -1,0 +1,102 @@
+Argument 1: uploaded_images/
+Argument 2: vgg
+Argument 3: dognames.txt
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = vgg 
+ dogfile = dognames.txt
+
+Prints 10 filenames from folder pet_images/
+ 1 file:              Horse_01.jpg
+ 2 file:                Dog_01.jpg
+ 3 file:                Dog_02.jpg
+ 4 file:    Washing_machine_01.jpg
+
+Empty Dictionary results_dic - n items= 0
+
+Filename= Horse_01.jpg    Label= horse
+
+Filename= Dog_01.jpg    Label= dog
+
+Filename= Dog_02.jpg    Label= dog
+
+Filename= Washing_machine_01.jpg    Label= washing machine
+
+Printing all key-value pairs in dictionary results_dic:
+Filename= Horse_01.jpg    Pet Label= horse
+Filename= Dog_01.jpg    Pet Label= dog
+Filename= Dog_02.jpg    Pet Label= dog
+Filename= Washing_machine_01.jpg    Pet Label= washing machine
+
+Pet Image Label Dictionary has 4 key-value pairs.
+Below are 4 of them:
+ 1 key:                   Horse_01.jpg  label:                      horse
+ 2 key:                     Dog_01.jpg  label:                        dog
+ 3 key:                     Dog_02.jpg  label:                        dog
+ 4 key:         Washing_machine_01.jpg  label:            washing machine
+{'Horse_01.jpg': ['horse', 'sorrel', 0], 'Dog_01.jpg': ['dog', 'german shepherd, german shepherd dog, german police dog, alsatian', 1], 'Dog_02.jpg': ['dog', 'german shepherd, german shepherd dog, german police dog, alsatian', 1], 'Washing_machine_01.jpg': ['washing machine', 'washer, automatic washer, washing machine', 1]}
+
+     MATCH:
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier: german shepherd, german shepherd dog, german police dog, alsatian
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier: german shepherd, german shepherd dog, german police dog, alsatian
+
+        Washing_machine_01.jpg: 
+Real:            washing machine   Classifier: washer, automatic washer, washing machine
+
+ NOT A MATCH:
+
+                  Horse_01.jpg: 
+Real:                      horse   Classifier:                         sorrel
+
+# Total Images 4 # Matches: 3 # NOT Matches: 1
+{'chihuahua': 1, 'japanese spaniel': 1, 'maltese dog': 1, 'maltese terrier': 1, 'maltese': 1, 'pekinese': 1, 'pekingese': 1, 'peke': 1, 'shih-tzu': 1, 'blenheim spaniel': 1, 'papillon': 1, 'toy terrier': 1, 'rhodesian ridgeback': 1, 'afghan hound': 1, 'afghan': 1, 'basset': 1, 'basset hound': 1, 'beagle': 1, 'bloodhound': 1, 'sleuthhound': 1, 'bluetick': 1, 'black-and-tan coonhound': 1, 'walker hound': 1, 'walker foxhound': 1, 'english foxhound': 1, 'redbone': 1, 'borzoi': 1, 'russian wolfhound': 1, 'irish wolfhound': 1, 'italian greyhound': 1, 'whippet': 1, 'ibizan hound': 1, 'ibizan podenco': 1, 'norwegian elkhound': 1, 'elkhound': 1, 'otterhound': 1, 'otter hound': 1, 'saluki': 1, 'gazelle hound': 1, 'scottish deerhound': 1, 'deerhound': 1, 'weimaraner': 1, 'staffordshire bullterrier': 1, 'staffordshire bull terrier': 1, 'american staffordshire terrier': 1, 'staffordshire terrier': 1, 'american pit bull terrier': 1, 'pit bull terrier': 1, 'bedlington terrier': 1, 'border terrier': 1, 'kerry blue terrier': 1, 'irish terrier': 1, 'norfolk terrier': 1, 'norwich terrier': 1, 'yorkshire terrier': 1, 'wire-haired fox terrier': 1, 'lakeland terrier': 1, 'sealyham terrier': 1, 'sealyham': 1, 'airedale': 1, 'airedale terrier': 1, 'cairn': 1, 'cairn terrier': 1, 'australian terrier': 1, 'dandie dinmont': 1, 'dandie dinmont terrier': 1, 'boston bull': 1, 'boston terrier': 1, 'miniature schnauzer': 1, 'giant schnauzer': 1, 'standard schnauzer': 1, 'schnauzer': 1, 'scotch terrier': 1, 'scottish terrier': 1, 'scottie': 1, 'tibetan terrier': 1, 'chrysanthemum dog': 1, 'silky terrier': 1, 'sydney silky': 1, 'soft-coated wheaten terrier': 1, 'west highland white terrier': 1, 'lhasa': 1, 'lhasa apso': 1, 'flat-coated retriever': 1, 'curly-coated retriever': 1, 'golden retriever': 1, 'labrador retriever': 1, 'chesapeake bay retriever': 1, 'german shorthaired pointer': 1, 'vizsla': 1, 'hungarian pointer': 1, 'english setter': 1, 'irish setter': 1, 'red setter': 1, 'gordon setter': 1, 'brittany spaniel': 1, 'clumber': 1, 'clumber spaniel': 1, 'english springer': 1, 'english springer spaniel': 1, 'welsh springer spaniel': 1, 'cocker spaniel': 1, 'english cocker spaniel': 1, 'cocker': 1, 'sussex spaniel': 1, 'irish water spaniel': 1, 'kuvasz': 1, 'schipperke': 1, 'groenendael': 1, 'malinois': 1, 'briard': 1, 'kelpie': 1, 'komondor': 1, 'old english sheepdog': 1, 'bobtail': 1, 'shetland sheepdog': 1, 'shetland sheep dog': 1, 'shetland': 1, 'collie': 1, 'border collie': 1, 'bouvier des flandres': 1, 'bouviers des flandres': 1, 'rottweiler': 1, 'german shepherd': 1, 'german shepherd dog': 1, 'german police dog': 1, 'alsatian': 1, 'doberman': 1, 'doberman pinscher': 1, 'miniature pinscher': 1, 'greater swiss mountain dog': 1, 'bernese mountain dog': 1, 'appenzeller': 1, 'entlebucher': 1, 'boxer': 1, 'bull mastiff': 1, 'tibetan mastiff': 1, 'french bulldog': 1, 'great dane': 1, 'saint bernard': 1, 'st bernard': 1, 'eskimo dog': 1, 'husky': 1, 'malamute': 1, 'malemute': 1, 'alaskan malamute': 1, 'siberian husky': 1, 'dalmatian': 1, 'coach dog': 1, 'carriage dog': 1, 'affenpinscher': 1, 'monkey pinscher': 1, 'monkey dog': 1, 'basenji': 1, 'pug': 1, 'pug-dog': 1, 'leonberg': 1, 'newfoundland': 1, 'newfoundland dog': 1, 'great pyrenees': 1, 'samoyed': 1, 'samoyede': 1, 'pomeranian': 1, 'chow': 1, 'chow chow': 1, 'keeshond': 1, 'brabancon griffon': 1, 'pembroke': 1, 'pembroke welsh corgi': 1, 'corgi': 1, 'cardigan': 1, 'cardigan welsh corgi': 1, 'toy poodle': 1, 'miniature poodle': 1, 'standard poodle': 1, 'poodle': 1, 'mexican hairless': 1, 'akita': 1, 'american eskimo dog': 1, 'american foxhound': 1, 'american water spaniel': 1, 'anatolian shepherd dog': 1, 'australian cattle dog': 1, 'australian shepherd': 1, 'bearded collie': 1, 'beauceron': 1, 'belgian malinois': 1, 'belgian sheepdog': 1, 'belgian tervuren': 1, 'bichon frise': 1, 'black and tan coonhound': 1, 'black russian terrier': 1, 'bluetick coonhound': 1, 'boykin spaniel': 1, 'brittany': 1, 'brussels griffon': 1, 'bull terrier': 1, 'bulldog': 1, 'bullmastiff': 1, 'canaan dog': 1, 'cane corso': 1, 'cavalier king charles spaniel': 1, 'chinese crested': 1, 'chinese shar-pei': 1, 'dachshund': 1, 'dogue de bordeaux': 1, 'english toy spaniel': 1, 'entlebucher mountain dog': 1, 'field spaniel': 1, 'finnish spitz': 1, 'german pinscher': 1, 'german wirehaired pointer': 1, 'glen of imaal terrier': 1, 'greyhound': 1, 'havanese': 1, 'icelandic sheepdog': 1, 'irish red and white setter': 1, 'japanese chin': 1, 'leonberger': 1, 'lowchen': 1, 'manchester terrier': 1, 'mastiff': 1, 'neapolitan mastiff': 1, 'norwegian buhund': 1, 'norwegian lundehund': 1, 'nova scotia duck tolling retriever': 1, 'parson russell terrier': 1, 'petit basset griffon vendeen': 1, 'pharaoh hound': 1, 'plott': 1, 'pointer': 1, 'portuguese water dog': 1, 'smooth fox terrier': 1, 'wirehaired pointing griffon': 1, 'xoloitzcuintli': 1, 'dog': 1}
+{'Horse_01.jpg': ['horse', 'sorrel', 0, 0, 0], 'Dog_01.jpg': ['dog', 'german shepherd, german shepherd dog, german police dog, alsatian', 1, 1, 1], 'Dog_02.jpg': ['dog', 'german shepherd, german shepherd dog, german police dog, alsatian', 1, 1, 1], 'Washing_machine_01.jpg': ['washing machine', 'washer, automatic washer, washing machine', 1, 0, 0]}
+
+     MATCH:
+
+                    Dog_01.jpg: 
+Real:                        dog   Classifier: german shepherd, german shepherd dog, german police dog, alsatian  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                    Dog_02.jpg: 
+Real:                        dog   Classifier: german shepherd, german shepherd dog, german police dog, alsatian  
+PetLabelDog: 1  ClassLabelDog: 1
+
+        Washing_machine_01.jpg: 
+Real:            washing machine   Classifier: washer, automatic washer, washing machine  
+PetLabelDog: 0  ClassLabelDog: 0
+
+ NOT A MATCH:
+
+                  Horse_01.jpg: 
+Real:                      horse   Classifier:                         sorrel  
+PetLabelDog: 0  ClassLabelDog: 0
+
+# Total Images 4 # Matches: 3 # NOT Matches: 1
+{'n_images': 4, 'n_dogs_img': 2, 'n_notdogs_img': 2, 'n_match': 3, 'n_correct_dogs': 2, 'n_correct_notdogs': 2, 'n_correct_breed': 2, 'pct_match': 75.0, 'pct_correct_dogs': 100.0, 'pct_correct_breed': 100.0, 'pct_correct_notdogs': 100.0}
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed: 100.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  4  N Dog Images:  2  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed: 100.0
+------------------------------------------------------------------------------------------------------------
+CNN Model: vgg
+Number of Images: 4
+Number of Dog Images: 2
+Number of "Not-a" Dog Images: 2
+% Correct Dogs: 100.0
+% Correct Breed: 100.0
+% Correct "Not-a" Dog: 100.0
+% Match: 75.0
+------------------------------------------------------------------------------------------------------------
+
+Total Elapsed Runtime: 4.354430198669434 in seconds.
+
+** Total Elapsed Runtime: 0:0:4
